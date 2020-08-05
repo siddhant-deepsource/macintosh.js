@@ -1,7 +1,7 @@
 version = 1
 
 exclude_patterns = [
-    "assets/**",
+    "assets/**,",
     "src/basilisk/**",
     "tools/**"
 ]
@@ -14,3 +14,4 @@ enabled = true
   ecma_version = "2018"
   module_system = "commonjs"
   environment = ["nodejs"]
+  style_guide = "airbnb"
