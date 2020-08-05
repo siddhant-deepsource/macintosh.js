@@ -1,12 +1,16 @@
 version = 1
 
-exclude_patterns = ["assets/**"]
+exclude_patterns = [
+    "assets/**",
+    "src/basilisk/**",
+    "tools/**"
+]
 
 [[analyzers]]
 name = "javascript"
 enabled = true
 
   [analyzers.meta]
-  ecma_version = "2020"
+  ecma_version = "2018"
   module_system = "commonjs"
   environment = ["nodejs"]
